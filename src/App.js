@@ -1,10 +1,14 @@
 import './App.css';
+import {useSelector,useDispatch} from "react-redux"
 
-function App() {
+const  App = () => {
+  const myStete =useSelector((state) => state.changeTheNumber );
   return (
+    <>
     <div className="App">
     
       <h1>Increment/Decrement Counter</h1>
+      <h4>Using React and Redux</h4>
       <div className="quantity">
         <a className='quantity-minus' title='Decrement' >
           <span>-</span>
@@ -15,6 +19,7 @@ function App() {
         </a>
       </div>
     </div>
+    </>
   );
 }
 
