@@ -39,7 +39,7 @@
   border-radius: 0.4rem;
 }
 .App .quantity input{
-  width: 6%;
+  width: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
